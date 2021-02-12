@@ -1,0 +1,32 @@
+{
+    "name": "webee-online/php8-base",
+    "description": "This is your project description",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Adam Wojciechowski",
+            "email": "adam@webee.online"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^5.0",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.2",
+        "friendsofphp/php-cs-fixer": "^2.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "WeBee\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WeBee\\Tests\\Spec\\": "spec/",
+            "WeBee\\Tests\\Unit\\": "tests/"
+        }
+    }
+}
