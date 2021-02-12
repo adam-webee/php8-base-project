@@ -21,11 +21,11 @@ composer update
 
 ## Structure
 
-"/src" - your code goes here
-"/tests" - here yo will put all of your phpunit tests
-"/Spec" - and this is a place for kahlan spec files
+* "/src" - your code goes here
+* "/test" - here yo will put all of your phpunit tests
+* "/spec" - and this is a place for kahlan spec files
 
-Directories "vendor" and "docs" are technical ones and yo don't need to make any changes in them.
+Directories "vendor" and "docs" are technical ones and you don't need to make any changes in them.
 
 Remember to change your namespace. This project template use "WeBee" namespace.
 
@@ -36,9 +36,9 @@ To run all tests execute bellow command:
 ./vendor/bin/phpunit
 ```
 According to template configuration this command will also generate coverage report. It will be placed in "docs/coverage-report" directory.
----
+
 WARNING: Code coverage needs to be enabled in php.ini by setting 'xdebug.mode' to 'coverage'.
----
+
 ### Kahlan
 To run all spec files execute this command:
 ```bash
